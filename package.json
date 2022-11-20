@@ -1,0 +1,36 @@
+{
+  "name": "@dfernandeza/make-me-a-gif",
+  "version": "0.0.1",
+  "description": "A simple CLI tool to convert video files to gif.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "make-me-a-gif": "index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git@github.com:dfernandeza/make-me-a-gif.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "wasm",
+    "video",
+    "gif",
+    "cli",
+    "video-to-gif",
+    "converter"
+  ],
+  "author": "dfernandeza",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg/core": "^0.11.0",
+    "@ffmpeg/ffmpeg": "^0.11.6",
+    "chalk": "^5.1.2",
+    "yargs": "^17.6.2"
+  }
+}

@@ -6,7 +6,7 @@ It uses [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) which is a pure
 
 ## Install
 
-```shell
+```
 npm install @dfernandeza/make-me-a-gif -g
 ```
 
@@ -17,7 +17,7 @@ Tested with:
 
 ## CLI Usage
 
-```shell
+```
 Usage: make-me-a-gif [options]
 
 Options:
@@ -34,7 +34,7 @@ Options:
 
 ### Example
 
-```shell
+```
 make-me-a-gif -i 'video.mov' -o 'awesome.gif' -s 5 -w 320 -f 20
 ```
 
